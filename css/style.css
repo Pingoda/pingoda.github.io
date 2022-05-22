@@ -1,0 +1,289 @@
+/*<--------------------All Pages--------------------->*/
+
+body
+{
+    font-family: 'Orbitron', sans-serif;
+    background-color: #161616;
+}
+
+::-webkit-scrollbar
+{
+    display: none;
+}
+
+.unscrollable
+{
+    overflow: hidden;
+}
+
+@keyframes fadeInAnim
+{
+    0%
+    {
+        opacity: 0%;
+        transform: translateY(-50px);
+    }
+    100%
+    {
+        opacity: 100%;
+    }
+}
+
+.button
+{
+    text-align: center;
+    color: #dddddd;
+    text-decoration: none;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    font-size: 1.3em;
+    width: 10%;
+    padding: 15px;
+    display: inline-block;
+    margin: 4px 2px;
+    margin-top: 40px;
+    transition-duration: 0.4s;
+}
+
+.button:hover
+{
+    color: #161616;
+    background-color: #dddddd;
+}
+
+.button-left
+{
+    margin-left: 22%;
+}
+
+.button-right
+{
+    margin-right: 2%;
+}
+
+.title
+{
+    float: left;
+}
+
+.lang
+{
+    background-color: #161616;
+    width: 48px;
+    height: 48px;
+    border: none;
+    position: relative;
+    top: 8.2px;
+}
+
+.unselectable
+{
+    user-select: none;
+}
+
+.animation
+{
+    animation: fadeInAnim ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.def-txt
+{
+    color: #dddddd;
+    font-size: 2em;
+}
+
+.purple-txt
+{
+    color: #9100ff;
+}
+
+.void
+{
+    margin-top: 10%;
+}
+
+.p-margin
+{
+    margin-left: 3%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.soontm
+{
+    margin-top: 8%;
+    margin-left: 1%;
+}
+/*<--------------------Home Page--------------------->*/
+
+.welcome
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 2em;
+}
+
+.welcomeeng
+{
+    margin-left: 13%;
+    margin-right: 10%;
+    font-size: 2em; 
+}
+
+/*<--------------------About Page--------------------->*/
+
+.descit
+{
+    margin-left: 15%;
+    margin-right: 10%;
+    font-size: 1.8em; 
+}
+
+.desceng
+{
+    margin-left: 15%;
+    margin-right: 10%;
+    font-size: 1.8em; 
+}
+
+/*<--------------------Projects Page--------------------->*/
+
+.prj-icons
+{
+    border-radius: 10px;
+}
+
+.prj-txt
+{
+    color: #dddddd;
+    text-shadow: 1px 1px #9100ff;
+}
+
+.prj-loplus
+{
+    margin-left: 23%;
+}
+
+.prj-wordle
+{
+    margin-left: 33%;
+}
+
+.prj-redacted
+{
+    margin-left: 23%;
+}
+
+.prj-div
+{
+    text-decoration: none;
+}
+
+.cardProject
+{
+    text-decoration: none;
+    display: inline;
+}
+
+.cardProjectLeft
+{
+    text-decoration: none;
+    display: inline;
+    margin-right: 0.5%;
+}
+
+.cardall
+{
+    display: flex;
+}
+
+/*<--------------------Sub Projects Pages--------------------->*/
+
+.loplus-ds
+{
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/*<--------------------Contacts Page--------------------->*/
+
+.btn-youtube, .btn-twitch, .btn-instagram
+{
+    margin-left: 1.5em;
+    
+}
+
+.btn-discord, .btn-youtube, .btn-twitch, .btn-instagram
+{
+    font-family: 'Orbitron', sans-serif;
+    background-color: #161616;
+    color: #dddddd;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    text-align: center;
+    border-top: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    padding: 15px;
+    margin-top: 20rem;
+    transition-duration: 0.4s;
+}
+
+.btn-discord
+{
+    margin-left: 6.3rem;
+}
+
+.btn-discord:hover
+{
+    background-color: #5869ea;
+    border: 1px solid #5869ea;
+    color: #dddddd;
+    font-size: 2em;
+    transition-duration: 1s; 
+}
+
+.btn-youtube:hover
+{
+    background-color: red;
+    border: 1px solid red;
+    color: #dddddd;
+    font-size: 2em; 
+    transition-duration: 1s;
+}
+
+.btn-twitch:hover
+{
+    background-color: #9100ff;
+    border: 1px solid #9100ff;
+    color: #dddddd;
+    font-size: 2em;
+    transition-duration: 1s;
+}
+
+.btn-instagram:hover
+{
+    background-image: linear-gradient(45deg, #f7cd04, #f31d3a, #914bc7);
+    border: 1px solid #dddddd;
+    color: #dddddd;
+    font-size: 2em;
+    transition-duration: 1s;
+}
+
+.cardContacts
+{
+    margin-top: 17%;
+}
+
+.cardContactsLeft
+{
+    margin-right: 5%;
+}
